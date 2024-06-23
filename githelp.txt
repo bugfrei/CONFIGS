@@ -1,0 +1,15 @@
+co  : commit             ] Commit, Message via VIM
+ac  : commit -am $       ] Add & Commit + $ Message
+ca  : commit --amend -NE ] Commit amend, No Edit (nur Dateiänderungen hinzufügren)
+cm  : commit --amend $   ] Commit amend, $ Message (nur Message ändern)
+sc  : stash clear
+t   : tag                  b   : branch
+ch  : checkout
+chb : checkout $         ] Checkout und $ Branch anlegen
+good: Bisect GOOD          bad : Bisect BAD
+cfg : config (global)      cfgl: config             ] LOKAL
+ghcfg: gh Config
+LOGS:
+l, la    : Line, Line All (auch Branches)
+ll,l1...9: Last Last, last 1...9 Logs
+li, lx   : Andere Formate
